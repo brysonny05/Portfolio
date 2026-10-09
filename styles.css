@@ -165,3 +165,44 @@ img {
     height: auto;
     width: 300px;
 }
+
+@media screen and (max-width: 600px) { 
+    .uwebsite-section,
+    .unity-section { 
+        flex-direction: column; 
+        align-items: center; 
+        width: 100%; 
+        box-sizing: border-box;
+        padding: 15px; 
+    } 
+    
+    .image-column { 
+        width: 100%; 
+        max-width: 300px; 
+        box-sizing: border-box; 
+        text-align: center; 
+    } 
+    
+    .image-column img { 
+        display: block; 
+        width: 100%; 
+        max-width: 250px;
+        height: auto; 
+        object-fit: contain; 
+        margin: 0 auto; 
+    } 
+    .descriptive-column { 
+        width: 100%; 
+        box-sizing: border-box; 
+        overflow-wrap: break-word; 
+    } 
+    
+    .descriptive-column h3 { 
+        text-align: center; 
+    } 
+    
+    .descriptive-column p { 
+        font-size: 16px; 
+        line-height: 1.6; 
+    } 
+}
